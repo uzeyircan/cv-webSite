@@ -60,6 +60,7 @@
 }
 .description {
   max-width: 24ch;
+  justify-content: center;
 }
 
 .info {
