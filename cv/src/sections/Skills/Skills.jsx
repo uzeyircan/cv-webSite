@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "cv/src/sections/Skills/Skills.jsx";
+import styles from "./SkillsStyles.module.css"; // Eğer aynı klasördeyse
 import checkMarkIcon from "../../assets/checkmark-dark.svg";
 import SkillList from "../../common/SkillList";
 function Skills() {
