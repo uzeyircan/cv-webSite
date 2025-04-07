@@ -3,7 +3,10 @@ function Contact() {
   return (
     <section id="contact" className={styles.container}>
       <h1 className="sectionTitle">Contacts</h1>
-      <form action="">
+      <form
+        action="https://formsubmit.co/selahattinada06@gmail.com"
+        method="POST"
+      >
         <div className="formGroup">
           <label htmlFor="name" hidden>
             Name
@@ -38,6 +41,7 @@ function Contact() {
             placeholder="Message"
             required
           />
+          <input type="hidden" name="_captcha" value="false"></input>
         </div>
         <input className="hover btn" type="submit" value="Submit" />
       </form>
