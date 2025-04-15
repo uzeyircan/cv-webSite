@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./ProjectStyles.module.css";
-import viberr from "../../assets/viberr.png";
-import freshBurger from "../../assets/fresh-burger.png";
-import hipsster from "../../assets/examples.png";
-import fitlift from "../../assets/fitlift.png";
+import practice from "../../assets/practice.png";
+import hotel from "../../assets/hotel.png";
+import examples from "../../assets/examples.png";
+import fitness from "../../assets/fitness.png";
 import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
@@ -12,25 +12,25 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={fitlift}
+          src={fitness}
           link="https://github.com/uzeyircan/fitness-app/tree/main"
           h3="Fitness"
           p="Fitness App"
         ></ProjectCard>
         <ProjectCard
-          src={freshBurger}
+          src={hotel}
           link="https://github.com/uzeyircan/hotel-reservation-system"
           h3="Hotel Reservation"
           p="Reservation App"
         ></ProjectCard>
         <ProjectCard
-          src={hipsster}
+          src={examples}
           link="https://github.com/uzeyircan/csharp-form-examples"
           h3="C# Form Examples"
           p="C# Examples App"
         ></ProjectCard>
         <ProjectCard
-          src={viberr}
+          src={practice}
           link="https://github.com/uzeyircan/practice-assignment"
           h3="Practice Assigment"
           p="C# Practice Assigment"
