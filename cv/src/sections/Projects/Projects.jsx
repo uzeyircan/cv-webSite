@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./ProjectStyles.module.css";
 import viberr from "../../assets/viberr.png";
 import freshBurger from "../../assets/fresh-burger.png";
-import hipsster from "../../assets/hipsster.png";
+import hipsster from "../../assets/examples.png";
 import fitlift from "../../assets/fitlift.png";
 import ProjectCard from "../../common/ProjectCard";
 
