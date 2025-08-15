@@ -10,7 +10,17 @@ import ecommerce from "../../assets/ecommerce.png";
 function Projects() {
   return (
     <section id="projects" className={styles.container}>
-      <h1 className="sectionTitle">Projects</h1>
+      <h1 className="sectionTitle">
+        <a
+          href="https://github.com/uzeyircan?tab=repositories"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub üzerindeki tüm projelerimi görüntüle"
+          style={{ textDecoration: "none", color: "inherit" }}
+        >
+          Projects
+        </a>
+      </h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={ecommerce}
