@@ -5,12 +5,19 @@ import hotel from "../../assets/hotel.png";
 import examples from "../../assets/examples.png";
 import fitness from "../../assets/fitness.png";
 import ProjectCard from "../../common/ProjectCard";
+import ecommerce from "../../assets/ecommerce.png";
 
 function Projects() {
   return (
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
+        <ProjectCard
+          src={ecommerce}
+          link="https://github.com/uzeyircan/mini_E_Commerce"
+          h3="E-Commerce"
+          p="Mini E-Commerce App"
+        ></ProjectCard>
         <ProjectCard
           src={fitness}
           link="https://github.com/uzeyircan/fitness-app/tree/main"
