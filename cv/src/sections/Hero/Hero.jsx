@@ -42,7 +42,7 @@ function Hero() {
           <a href="https://twitter.com" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
           </a>
-          <a href="https://github.com" target="_blank">
+          <a href="https://github.com/uzeyircan" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
           <a href="https://linkedin.com" target="_blank">
@@ -50,8 +50,9 @@ function Hero() {
           </a>
         </span>
         <p className={styles.info}>
-          With a passion for developing modern React web apps for commerial
-          businesses.
+          "I'm Üzeyir, and I develop fullstack applications with React & .NET
+          Core. <br />I work on e-commerce, API development, and modern UI
+          designs."
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
