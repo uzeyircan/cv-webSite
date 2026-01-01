@@ -6,7 +6,7 @@ import examples from "../../assets/examples.png";
 import fitness from "../../assets/fitness.png";
 import ProjectCard from "../../common/ProjectCard";
 import ecommerce from "../../assets/ecommerce.png";
-
+import saasnotes from "../../assets/saasnotes.png";
 function Projects() {
   return (
     <section id="projects" className={styles.container}>
@@ -22,6 +22,12 @@ function Projects() {
         </a>
       </h1>
       <div className={styles.projectsContainer}>
+        <ProjectCard
+          src={saasnotes}
+          link="https://github.com/uzeyircan/clario"
+          h3="ClarioNot"
+          p="First Saas Project"
+        ></ProjectCard>
         <ProjectCard
           src={ecommerce}
           link="https://github.com/uzeyircan/mini_E_Commerce"
