@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build"
+  publish = "dist" # veya .next / build neyse
+
+[build.environment]
+  NODE_VERSION = "20"
